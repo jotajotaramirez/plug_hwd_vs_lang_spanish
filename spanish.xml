@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="hwdvs-language" method="upgrade">
+    <name>Spanish Language</name>
+    <creationDate>2013-04-08</creationDate>
+    <author>Juan José Ramírez</author>
+    <copyright>(C) 2013 Juan José Ramírez</copyright>
+    <authorEmail>juanjose.ramirez@gmail.com</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0</version>
+    <description>Adds Spanish language support to hwdVideoShare</description>
+    
+    <!-- Plugin Language File Copy Section -->
+    <files>
+        <filename plugin="spanish">spanish.be.php</filename>
+        <filename plugin="spanish">spanish.fe.php</filename>
+        <filename plugin="spanish">spanish.plugs.php</filename>
+        <filename plugin="spanish">spanish.settings.php</filename>
+    </files>
+    
+    <!-- Administration Language File Copy Section -->
+    <languages>
+        <language tag="en-GB">es-ES.com_hwdvideoshare.ini</language>
+        <language tag="en-GB">es-ES.com_hwdvideoshare.menu.ini</language>
+    </languages>
+
+</install>
+
